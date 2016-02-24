@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">2048简易版</string>
+
+    <string name="start_new_game">新游戏</string>
+    <string name="continue_game">继续游戏</string>
+    <string name="load_progress">载入进度</string>
+    <string name="open_leader_board">排行榜</string>
+
+    <string name="cancel">回退</string>
+    <string name="save">保存</string>
+    <string name="failed_to_save">保存失败</string>
+    <string name="success_to_save">保存成功</string>
+
+    <string name="empty_leader_board">排行榜为空</string>
+    <string name="rank">排名</string>
+    <string name="achieving_time">达成时间</string>
+
+    <string name="no_progress_exist">未保存有进度</string>
+    <string name="progress_name">名称</string>
+    <string name="saving_time">保存时间</string>
+    <string name="success_to_delete">删除成功</string>
+    <string name="score">得分</string>
+    <string name="step_canceled">回退记数</string>
+    <string name="step_cancelable">可回退</string>
+    <string name="delete">删除</string>
+    <string name="load">载入</string>
+
+    <string name="load_progress_failed">载入进度失败</string>
+    <string name="select_or_input_progress_name">选择一个进度覆盖之\n或输入新名称</string>
+    <string name="wrong_progress_name">进度名非法，不允许包含\n/</string>
+
+    <string name="current_score">当前得分：</string>
+    <string name="canceled">回退数：</string>
+    <string name="cancelable">可回退：</string>
+    <string name="game_over">游戏结束</string>
+    <string name="final_score">最终得分：</string>
+    <string name="apply_default_name">缺省输入，则以系统时间为名</string>
+    <string name="ok">确认</string>
+</resources>

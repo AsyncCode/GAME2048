@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">2048_lite</string>
+
+    <string name="start_new_game">start new game</string>
+    <string name="continue_game">continue game</string>
+    <string name="load_progress">load progress</string>
+    <string name="open_leader_board">the leader board</string>
+
+    <string name="cancel">Cancel</string>
+    <string name="save">save</string>
+    <string name="failed_to_save">failed to save</string>
+    <string name="success_to_save">success to save</string>
+
+    <string name="empty_leader_board">the lead board is empty</string>
+    <string name="rank">rank:</string>
+    <string name="achieving_time">achieving time</string>
+
+    <string name="no_progress_exist">no progress exists</string>
+    <string name="progress_name">name</string>
+    <string name="saving_time">saving time</string>
+    <string name="success_to_delete">success to delete</string>
+    <string name="score">score</string>
+    <string name="step_canceled">steps canceled</string>
+    <string name="step_cancelable">steps cancelable</string>
+    <string name="delete">delete</string>
+    <string name="load">load</string>
+
+    <string name="load_progress_failed">failed to load the progress</string>
+    <string name="select_or_input_progress_name">select the progress to cover\nor input a new name</string>
+    <string name="wrong_progress_name">illegal progress name\n/\nare unavailable</string>
+
+    <string name="current_score">current score:</string>
+    <string name="canceled">canceled:</string>
+    <string name="cancelable">cancelable:</string>
+    <string name="game_over">game over</string>
+    <string name="final_score">your final score is:</string>
+    <string name="apply_default_name">input nothing and apply current time</string>
+    <string name="ok">OK</string>
+</resources>

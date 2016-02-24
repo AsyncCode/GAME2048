@@ -1,0 +1,145 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@mipmap/bg_paper"
+    android:layout_margin="@dimen/normal_margin"
+    android:padding="@dimen/large_padding">
+
+    <TableRow
+        android:layout_marginTop="@dimen/large_margin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btnDeleteThisProgress"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@mipmap/bg_btn_1"
+            android:text="@string/delete"
+            android:textSize="@dimen/normal_text_size" />
+
+        <Button
+            android:id="@+id/btnLoadThisProgress"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@mipmap/bg_btn_1"
+            android:text="@string/load"
+            android:textSize="@dimen/normal_text_size" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tvProgressNameTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/normal_text_size" />
+
+        <TextView
+            android:id="@+id/tvProgressNameValue"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/normal_text_size" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tvSaveTimeTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/normal_text_size" />
+
+        <TextView
+            android:id="@+id/tvSaveTimeValue"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/normal_text_size" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.zq1451349.game2048.MatrixView
+            android:id="@+id/matrixViewInItem"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/score"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:id="@+id/tvScoreValue"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/normal_text_size" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/step_canceled"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:id="@+id/tvStepCanceledValue"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/normal_text_size" />
+
+            <TextView
+                android:id="@+id/tvStepCancelableTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/step_cancelable"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:id="@+id/tvStepCancelableValue"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/normal_text_size" />
+
+        </LinearLayout>
+
+    </TableRow>
+
+</TableLayout>

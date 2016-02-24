@@ -1,0 +1,78 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/bg_mian"
+    android:orientation="vertical"
+    android:padding="@dimen/normal_padding">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:orientation="horizontal">
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:orientation="vertical">
+
+            <Button
+                android:textStyle="bold|italic"
+                android:textSize="@dimen/large_text_size"
+                android:background="@mipmap/bg_btn_2"
+                android:id="@+id/btnContinueGame"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_margin="@dimen/small_margin"
+                android:layout_weight="1"
+                android:text="@string/continue_game" />
+
+            <Button
+                android:textStyle="bold|italic"
+                android:textSize="@dimen/large_text_size"
+                android:id="@+id/btnStartNewGame"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_margin="@dimen/small_margin"
+                android:layout_weight="1"
+                android:background="@mipmap/bg_btn_2"
+                android:text="@string/start_new_game" />
+
+            <Button
+                android:textStyle="bold|italic"
+                android:textSize="@dimen/large_text_size"
+                android:background="@mipmap/bg_btn_2"
+                android:id="@+id/btnLoadProgress"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_margin="@dimen/small_margin"
+                android:layout_weight="1"
+                android:text="@string/load_progress" />
+
+            <Button
+                android:textStyle="bold|italic"
+                android:textSize="@dimen/large_text_size"
+                android:background="@mipmap/bg_btn_2"
+                android:id="@+id/btnOpenLeaderBoard"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_margin="@dimen/small_margin"
+                android:layout_weight="1"
+                android:text="@string/open_leader_board" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
